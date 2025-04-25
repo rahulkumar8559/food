@@ -7,7 +7,7 @@ const FoodDisplay = ({ category }) => {
   // console.log(name);  // Check what 'name' contains for debugging
 const data =name.length>0?name:food_list
 
-console.log(data)
+ 
   return (
     <div className='mt-[30px]'>
       <h2 className='font-[600]' style={{ fontSize: 'max(2vw,24px)' }}>
