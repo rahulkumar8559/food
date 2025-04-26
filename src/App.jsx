@@ -21,7 +21,7 @@ function App() {
         <Navbar setShowLogin={setSetShowLogin} setProfileLogo={setProfileLogo} profileLogo={profileLogo} />
         <Routes>
           {/* <Route path='/' element={<Home />} /> */}
-          <Route path='/food/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/menu' element={<ExploreMenu />} />
