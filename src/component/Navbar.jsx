@@ -32,7 +32,7 @@ const Navbar = ({ setShowLogin, setProfileLogo, profileLogo }) => {
       </button>
       {menuOpen && (
   <ul className='absolute top-[60px] right-[20px] bg-white shadow-md p-4 rounded-md flex flex-col gap-4 text-[#49557e] lg:hidden z-50'>
-    <Link to='/food' onClick={() => { setMenu('home'); setMenuOpen(false); }}>Home</Link>
+    <Link to='/' onClick={() => { setMenu('home'); setMenuOpen(false); }}>Home</Link>
     <Link to='/menu' onClick={() => { setMenu('menu'); setMenuOpen(false); }}>Menu</Link>
     <Link to='/mobile' onClick={() => { setMenu('mobile-app'); setMenuOpen(false); }}>Mobile-App</Link>
     <Link to='footer' onClick={() => { setMenu('contact-us'); setMenuOpen(false); }}>Contact us</Link>
