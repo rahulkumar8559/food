@@ -20,7 +20,7 @@ const Navbar = ({ setShowLogin, setProfileLogo, profileLogo }) => {
 
   return (
     <div className='flex justify-between items-center  p-[20px]'>
-      <Link to='/' onClick={() => setMenu('home')} > <img src={assets.logo} alt="" className='w-[120px] lg:w-[140px]' /></Link>
+      <Link to='/food' onClick={() => setMenu('home')} > <img src={assets.logo} alt="" className='w-[120px] lg:w-[140px]' /></Link>
       <ul className='flex gap-[20px] text-[#49557e] lg:text-[17px] text-[18px] hidden  lg:block lg:flex sm:hidden'>
         <Link to='/food' onClick={() => setMenu('home')} className={`cursor-pointer ${menu === 'home' ? 'underline underline-offset-1' : ''} `}  >Home</Link>
         <Link to='/menu' onClick={() => setMenu('menu')} className={`cursor-pointer ${menu === 'menu' ? 'underline underline-offset-1' : ''} `}>Menu</Link>
