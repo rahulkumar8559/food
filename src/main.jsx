@@ -5,7 +5,7 @@ import StoreContextProvider from './context/StoreContext.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter >
+  <BrowserRouter basename="/food" >
   <StoreContextProvider>
   <App />
   </StoreContextProvider>
