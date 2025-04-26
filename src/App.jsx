@@ -20,7 +20,7 @@ function App() {
       <div className='w-[85%] m-auto font-poppins'>
         <Navbar setShowLogin={setSetShowLogin} setProfileLogo={setProfileLogo} profileLogo={profileLogo} />
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
           <Route path='/food/' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />

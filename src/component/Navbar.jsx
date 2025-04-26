@@ -22,7 +22,7 @@ const Navbar = ({ setShowLogin, setProfileLogo, profileLogo }) => {
     <div className='flex justify-between items-center  p-[20px]'>
       <Link to='/' onClick={() => setMenu('home')} > <img src={assets.logo} alt="" className='w-[120px] lg:w-[140px]' /></Link>
       <ul className='flex gap-[20px] text-[#49557e] lg:text-[17px] text-[18px] hidden  lg:block lg:flex sm:hidden'>
-        <Link to='/' onClick={() => setMenu('home')} className={`cursor-pointer ${menu === 'home' ? 'underline underline-offset-1' : ''} `}  >Home</Link>
+        <Link to='/food' onClick={() => setMenu('home')} className={`cursor-pointer ${menu === 'home' ? 'underline underline-offset-1' : ''} `}  >Home</Link>
         <Link to='/menu' onClick={() => setMenu('menu')} className={`cursor-pointer ${menu === 'menu' ? 'underline underline-offset-1' : ''} `}>Menu</Link>
         <Link to='/mobile' onClick={() => setMenu('mobile-app')} className={`cursor-pointer ${menu === 'mobile-app' ? 'underline underline-offset-1' : ''} `}>Mobile-App</Link>
         <Link to='footer' onClick={() => setMenu('contact-us')} className={`cursor-pointer ${menu === 'contact-us' ? 'underline underline-offset-1' : ''} `} >Contact us</Link>
